@@ -1,0 +1,25 @@
+/* 
+ Localizable.strings
+ openchatdating
+ 
+ Created by Vladimir Psyukalov on 28.06.2018.
+ Copyright © 2018 YOUROCK INC. All rights reserved.
+ */
+
+
+// App delegate
+
+"tab_bar_item_title_0" = "Searching";
+"tab_bar_item_title_1" = "Contacts";
+"tab_bar_item_title_2" = "Open Chats";
+"tab_bar_item_title_3" = "Profile";
+
+// Profile view
+
+"pv_title" = "Profile";
+
+"pv_your_name" = "Your Name";
+
+"pv_age" = "Age";
+"pv_gender" = "Gender";
+"pv_prefer_gender" = "Prefer Gender";

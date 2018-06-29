@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		467BB0492860C218D109E4CF /* libPods-openchatdating.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C950D2D38574528F60E883FB /* libPods-openchatdating.a */; };
+		C756848E20E4E07900B0161B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C756848D20E4E07900B0161B /* AppDelegate.m */; };
+		C756849620E4E07A00B0161B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C756849520E4E07A00B0161B /* Assets.xcassets */; };
+		C756849C20E4E07A00B0161B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C756849B20E4E07A00B0161B /* main.m */; };
+		C756851020E4FB0100B0161B /* UIView+FloatingLikes.m in Sources */ = {isa = PBXBuildFile; fileRef = C756850520E4FB0100B0161B /* UIView+FloatingLikes.m */; };
+		C756851120E4FB0100B0161B /* uiview_floatinglikes_like_image@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = C756850620E4FB0100B0161B /* uiview_floatinglikes_like_image@1x.png */; };
+		C756851220E4FB0100B0161B /* uiview_floatinglikes_like_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C756850720E4FB0100B0161B /* uiview_floatinglikes_like_image@2x.png */; };
+		C756851320E4FB0100B0161B /* uiview_floatinglikes_like_image@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C756850820E4FB0100B0161B /* uiview_floatinglikes_like_image@3x.png */; };
+		C756851420E4FB0100B0161B /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = C756850F20E4FB0100B0161B /* iCarousel.m */; };
+		C756851820E4FD2E00B0161B /* VPHorizontalPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C756851720E4FD2E00B0161B /* VPHorizontalPickerView.m */; };
+		C7FA1DC720E505430034E154 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FA1DC520E505430034E154 /* MKMapView+ZoomLevel.m */; };
+		C7FA1DCF20E5066F0034E154 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FA1DCE20E5066F0034E154 /* ViewController.m */; };
+		C7FA1DD220E507B60034E154 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FA1DD120E507B60034E154 /* ProfileViewController.m */; };
+		C7FA1DD520E507E50034E154 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DD420E507E50034E154 /* ProfileView.xib */; };
+		C7FA1DF620E509760034E154 /* BN-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DDE20E509760034E154 /* BN-Bold.ttf */; };
+		C7FA1DF720E509760034E154 /* BN-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DDF20E509760034E154 /* BN-Book.ttf */; };
+		C7FA1DF820E509760034E154 /* BN-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DE020E509760034E154 /* BN-Light.ttf */; };
+		C7FA1DF920E509760034E154 /* BN-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DE120E509760034E154 /* BN-Regular.ttf */; };
+		C7FA1DFA20E509760034E154 /* BN-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DE220E509760034E154 /* BN-Thin.ttf */; };
+		C7FA1DFB20E509760034E154 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DE420E509760034E154 /* Montserrat-Black.ttf */; };
+		C7FA1DFC20E509760034E154 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DE520E509760034E154 /* Montserrat-BlackItalic.ttf */; };
+		C7FA1DFD20E509760034E154 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DE620E509760034E154 /* Montserrat-Bold.ttf */; };
+		C7FA1DFE20E509760034E154 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DE720E509760034E154 /* Montserrat-BoldItalic.ttf */; };
+		C7FA1DFF20E509760034E154 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DE820E509760034E154 /* Montserrat-ExtraBold.ttf */; };
+		C7FA1E0020E509760034E154 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DE920E509760034E154 /* Montserrat-ExtraBoldItalic.ttf */; };
+		C7FA1E0120E509760034E154 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DEA20E509760034E154 /* Montserrat-ExtraLight.ttf */; };
+		C7FA1E0220E509760034E154 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DEB20E509760034E154 /* Montserrat-ExtraLightItalic.ttf */; };
+		C7FA1E0320E509760034E154 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DEC20E509760034E154 /* Montserrat-Italic.ttf */; };
+		C7FA1E0420E509760034E154 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DED20E509760034E154 /* Montserrat-Light.ttf */; };
+		C7FA1E0520E509760034E154 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DEE20E509760034E154 /* Montserrat-LightItalic.ttf */; };
+		C7FA1E0620E509760034E154 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DEF20E509760034E154 /* Montserrat-Medium.ttf */; };
+		C7FA1E0720E509760034E154 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DF020E509760034E154 /* Montserrat-MediumItalic.ttf */; };
+		C7FA1E0820E509760034E154 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DF120E509760034E154 /* Montserrat-Regular.ttf */; };
+		C7FA1E0920E509760034E154 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DF220E509760034E154 /* Montserrat-SemiBold.ttf */; };
+		C7FA1E0A20E509760034E154 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DF320E509760034E154 /* Montserrat-SemiBoldItalic.ttf */; };
+		C7FA1E0B20E509760034E154 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DF420E509760034E154 /* Montserrat-Thin.ttf */; };
+		C7FA1E0C20E509760034E154 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1DF520E509760034E154 /* Montserrat-ThinItalic.ttf */; };
+		C7FA1E0F20E50AEA0034E154 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FA1E0E20E50AEA0034E154 /* User.m */; };
+		C7FA1E1220E50D180034E154 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FA1E1120E50D180034E154 /* UserManager.m */; };
+		C7FA1E1520E510960034E154 /* CustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FA1E1320E510960034E154 /* CustomObject.m */; };
+		C7FA1E1720E51D9A0034E154 /* ChatListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1E1620E51D9A0034E154 /* ChatListView.xib */; };
+		C7FA1E1920E51DBA0034E154 /* OpenChatListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1E1820E51DBA0034E154 /* OpenChatListView.xib */; };
+		C7FA1E1B20E51DD10034E154 /* SearchingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1E1A20E51DD10034E154 /* SearchingView.xib */; };
+		C7FA1E1E20E51E0B0034E154 /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FA1E1D20E51E0B0034E154 /* ChatListViewController.m */; };
+		C7FA1E2120E51E340034E154 /* OpenChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FA1E2020E51E340034E154 /* OpenChatListViewController.m */; };
+		C7FA1E2720E51EA50034E154 /* SearchingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FA1E2620E51EA50034E154 /* SearchingViewController.m */; };
+		C7FA1E3220E51FF90034E154 /* UITextField+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FA1E2A20E51FF80034E154 /* UITextField+Custom.m */; };
+		C7FA1E3320E51FF90034E154 /* NSString+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FA1E2B20E51FF80034E154 /* NSString+Custom.m */; };
+		C7FA1E3420E51FF90034E154 /* UILabel+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FA1E2D20E51FF80034E154 /* UILabel+Custom.m */; };
+		C7FA1E3520E51FF90034E154 /* UIView+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FA1E2F20E51FF80034E154 /* UIView+Custom.m */; };
+		C7FA1E3620E51FF90034E154 /* NSDictionary+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FA1E3120E51FF90034E154 /* NSDictionary+Custom.m */; };
+		C7FA1E3C20E521660034E154 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7FA1E3E20E521660034E154 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C1BB212304E983E813BF4FF7 /* Pods-openchatdating.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openchatdating.release.xcconfig"; path = "Pods/Target Support Files/Pods-openchatdating/Pods-openchatdating.release.xcconfig"; sourceTree = "<group>"; };
+		C756848920E4E07900B0161B /* openchatdating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openchatdating.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C756848C20E4E07900B0161B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C756848D20E4E07900B0161B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C756849520E4E07A00B0161B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C756849A20E4E07A00B0161B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C756849B20E4E07A00B0161B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C756850420E4FB0100B0161B /* UIView+FloatingLikes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FloatingLikes.h"; sourceTree = "<group>"; };
+		C756850520E4FB0100B0161B /* UIView+FloatingLikes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FloatingLikes.m"; sourceTree = "<group>"; };
+		C756850620E4FB0100B0161B /* uiview_floatinglikes_like_image@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uiview_floatinglikes_like_image@1x.png"; sourceTree = "<group>"; };
+		C756850720E4FB0100B0161B /* uiview_floatinglikes_like_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uiview_floatinglikes_like_image@2x.png"; sourceTree = "<group>"; };
+		C756850820E4FB0100B0161B /* uiview_floatinglikes_like_image@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uiview_floatinglikes_like_image@3x.png"; sourceTree = "<group>"; };
+		C756850E20E4FB0100B0161B /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		C756850F20E4FB0100B0161B /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		C756851620E4FD2E00B0161B /* VPHorizontalPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPHorizontalPickerView.h; sourceTree = "<group>"; };
+		C756851720E4FD2E00B0161B /* VPHorizontalPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPHorizontalPickerView.m; sourceTree = "<group>"; };
+		C7FA1DC520E505430034E154 /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
+		C7FA1DC620E505430034E154 /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		C7FA1DCD20E5066F0034E154 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7FA1DCE20E5066F0034E154 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7FA1DD020E507B60034E154 /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		C7FA1DD120E507B60034E154 /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		C7FA1DD420E507E50034E154 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		C7FA1DDE20E509760034E154 /* BN-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BN-Bold.ttf"; sourceTree = "<group>"; };
+		C7FA1DDF20E509760034E154 /* BN-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BN-Book.ttf"; sourceTree = "<group>"; };
+		C7FA1DE020E509760034E154 /* BN-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BN-Light.ttf"; sourceTree = "<group>"; };
+		C7FA1DE120E509760034E154 /* BN-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BN-Regular.ttf"; sourceTree = "<group>"; };
+		C7FA1DE220E509760034E154 /* BN-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BN-Thin.ttf"; sourceTree = "<group>"; };
+		C7FA1DE420E509760034E154 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		C7FA1DE520E509760034E154 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		C7FA1DE620E509760034E154 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		C7FA1DE720E509760034E154 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C7FA1DE820E509760034E154 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C7FA1DE920E509760034E154 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		C7FA1DEA20E509760034E154 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		C7FA1DEB20E509760034E154 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		C7FA1DEC20E509760034E154 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		C7FA1DED20E509760034E154 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		C7FA1DEE20E509760034E154 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		C7FA1DEF20E509760034E154 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		C7FA1DF020E509760034E154 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C7FA1DF120E509760034E154 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		C7FA1DF220E509760034E154 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		C7FA1DF320E509760034E154 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		C7FA1DF420E509760034E154 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		C7FA1DF520E509760034E154 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		C7FA1E0D20E50AEA0034E154 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		C7FA1E0E20E50AEA0034E154 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		C7FA1E1020E50D180034E154 /* UserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		C7FA1E1120E50D180034E154 /* UserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+		C7FA1E1320E510960034E154 /* CustomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomObject.m; sourceTree = "<group>"; };
+		C7FA1E1420E510960034E154 /* CustomObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomObject.h; sourceTree = "<group>"; };
+		C7FA1E1620E51D9A0034E154 /* ChatListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatListView.xib; sourceTree = "<group>"; };
+		C7FA1E1820E51DBA0034E154 /* OpenChatListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpenChatListView.xib; sourceTree = "<group>"; };
+		C7FA1E1A20E51DD10034E154 /* SearchingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchingView.xib; sourceTree = "<group>"; };
+		C7FA1E1C20E51E0B0034E154 /* ChatListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatListViewController.h; sourceTree = "<group>"; };
+		C7FA1E1D20E51E0B0034E154 /* ChatListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatListViewController.m; sourceTree = "<group>"; };
+		C7FA1E1F20E51E340034E154 /* OpenChatListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenChatListViewController.h; sourceTree = "<group>"; };
+		C7FA1E2020E51E340034E154 /* OpenChatListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenChatListViewController.m; sourceTree = "<group>"; };
+		C7FA1E2520E51EA50034E154 /* SearchingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchingViewController.h; sourceTree = "<group>"; };
+		C7FA1E2620E51EA50034E154 /* SearchingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchingViewController.m; sourceTree = "<group>"; };
+		C7FA1E2820E51FF70034E154 /* UILabel+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Custom.h"; sourceTree = "<group>"; };
+		C7FA1E2920E51FF70034E154 /* NSString+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Custom.h"; sourceTree = "<group>"; };
+		C7FA1E2A20E51FF80034E154 /* UITextField+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Custom.m"; sourceTree = "<group>"; };
+		C7FA1E2B20E51FF80034E154 /* NSString+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Custom.m"; sourceTree = "<group>"; };
+		C7FA1E2C20E51FF80034E154 /* UITextField+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Custom.h"; sourceTree = "<group>"; };
+		C7FA1E2D20E51FF80034E154 /* UILabel+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Custom.m"; sourceTree = "<group>"; };
+		C7FA1E2E20E51FF80034E154 /* UIView+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Custom.h"; sourceTree = "<group>"; };
+		C7FA1E2F20E51FF80034E154 /* UIView+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Custom.m"; sourceTree = "<group>"; };
+		C7FA1E3020E51FF90034E154 /* NSDictionary+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Custom.h"; sourceTree = "<group>"; };
+		C7FA1E3120E51FF90034E154 /* NSDictionary+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Custom.m"; sourceTree = "<group>"; };
+		C7FA1E3820E520750034E154 /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
+		C7FA1E3920E520750034E154 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		C7FA1E3D20E521660034E154 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C7FA1E3F20E521720034E154 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C950D2D38574528F60E883FB /* libPods-openchatdating.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-openchatdating.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC32B629EF93DE4A45FDB2B1 /* Pods-openchatdating.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openchatdating.debug.xcconfig"; path = "Pods/Target Support Files/Pods-openchatdating/Pods-openchatdating.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C756848620E4E07900B0161B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467BB0492860C218D109E4CF /* libPods-openchatdating.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C50414019EBFB8C14AD6A40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC32B629EF93DE4A45FDB2B1 /* Pods-openchatdating.debug.xcconfig */,
+				C1BB212304E983E813BF4FF7 /* Pods-openchatdating.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83661C9F19B40CD99CD3732B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C950D2D38574528F60E883FB /* libPods-openchatdating.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C756848020E4E07800B0161B = {
+			isa = PBXGroup;
+			children = (
+				83661C9F19B40CD99CD3732B /* Frameworks */,
+				C756848B20E4E07900B0161B /* openchatdating */,
+				6C50414019EBFB8C14AD6A40 /* Pods */,
+				C756848A20E4E07900B0161B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C756848A20E4E07900B0161B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C756848920E4E07900B0161B /* openchatdating.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C756848B20E4E07900B0161B /* openchatdating */ = {
+			isa = PBXGroup;
+			children = (
+				C756848C20E4E07900B0161B /* AppDelegate.h */,
+				C756848D20E4E07900B0161B /* AppDelegate.m */,
+				C756849B20E4E07A00B0161B /* main.m */,
+				C756849A20E4E07A00B0161B /* Info.plist */,
+				C756849520E4E07A00B0161B /* Assets.xcassets */,
+				C7FA1DD620E508D60034E154 /* localizations */,
+				C7FA1DC820E505DC0034E154 /* models views controllers */,
+				C7FA1DD720E508D60034E154 /* resources */,
+				C756850120E4FB0100B0161B /* libraries */,
+				C756850A20E4FB0100B0161B /* third party */,
+			);
+			path = openchatdating;
+			sourceTree = "<group>";
+		};
+		C756850120E4FB0100B0161B /* libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C756850220E4FB0100B0161B /* categories */,
+				C7FA1E3720E520750034E154 /* macros */,
+				C756850920E4FB0100B0161B /* others */,
+				C7FA1DCC20E5066F0034E154 /* subclasses */,
+			);
+			path = libraries;
+			sourceTree = "<group>";
+		};
+		C756850220E4FB0100B0161B /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				C7FA1E3020E51FF90034E154 /* NSDictionary+Custom.h */,
+				C7FA1E3120E51FF90034E154 /* NSDictionary+Custom.m */,
+				C7FA1E2920E51FF70034E154 /* NSString+Custom.h */,
+				C7FA1E2B20E51FF80034E154 /* NSString+Custom.m */,
+				C7FA1E2820E51FF70034E154 /* UILabel+Custom.h */,
+				C7FA1E2D20E51FF80034E154 /* UILabel+Custom.m */,
+				C7FA1E2C20E51FF80034E154 /* UITextField+Custom.h */,
+				C7FA1E2A20E51FF80034E154 /* UITextField+Custom.m */,
+				C7FA1E2E20E51FF80034E154 /* UIView+Custom.h */,
+				C7FA1E2F20E51FF80034E154 /* UIView+Custom.m */,
+				C756850320E4FB0100B0161B /* UIView+FloatingLikes */,
+			);
+			path = categories;
+			sourceTree = "<group>";
+		};
+		C756850320E4FB0100B0161B /* UIView+FloatingLikes */ = {
+			isa = PBXGroup;
+			children = (
+				C756850420E4FB0100B0161B /* UIView+FloatingLikes.h */,
+				C756850520E4FB0100B0161B /* UIView+FloatingLikes.m */,
+				C756850620E4FB0100B0161B /* uiview_floatinglikes_like_image@1x.png */,
+				C756850720E4FB0100B0161B /* uiview_floatinglikes_like_image@2x.png */,
+				C756850820E4FB0100B0161B /* uiview_floatinglikes_like_image@3x.png */,
+			);
+			path = "UIView+FloatingLikes";
+			sourceTree = "<group>";
+		};
+		C756850920E4FB0100B0161B /* others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		C756850A20E4FB0100B0161B /* third party */ = {
+			isa = PBXGroup;
+			children = (
+				C756850B20E4FB0100B0161B /* categories */,
+				C756850C20E4FB0100B0161B /* others */,
+			);
+			path = "third party";
+			sourceTree = "<group>";
+		};
+		C756850B20E4FB0100B0161B /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				C7FA1DC620E505430034E154 /* MKMapView+ZoomLevel.h */,
+				C7FA1DC520E505430034E154 /* MKMapView+ZoomLevel.m */,
+			);
+			path = categories;
+			sourceTree = "<group>";
+		};
+		C756850C20E4FB0100B0161B /* others */ = {
+			isa = PBXGroup;
+			children = (
+				C756850D20E4FB0100B0161B /* iCarousel */,
+				C756851520E4FD2E00B0161B /* VPHorizontalPickerView */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		C756850D20E4FB0100B0161B /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				C756850E20E4FB0100B0161B /* iCarousel.h */,
+				C756850F20E4FB0100B0161B /* iCarousel.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		C756851520E4FD2E00B0161B /* VPHorizontalPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				C756851620E4FD2E00B0161B /* VPHorizontalPickerView.h */,
+				C756851720E4FD2E00B0161B /* VPHorizontalPickerView.m */,
+			);
+			path = VPHorizontalPickerView;
+			sourceTree = "<group>";
+		};
+		C7FA1DC820E505DC0034E154 /* models views controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7FA1DCA20E505DC0034E154 /* models */,
+				C7FA1DCB20E505DC0034E154 /* views */,
+				C7FA1DC920E505DC0034E154 /* controllers */,
+			);
+			path = "models views controllers";
+			sourceTree = "<group>";
+		};
+		C7FA1DC920E505DC0034E154 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7FA1E1C20E51E0B0034E154 /* ChatListViewController.h */,
+				C7FA1E1D20E51E0B0034E154 /* ChatListViewController.m */,
+				C7FA1E1F20E51E340034E154 /* OpenChatListViewController.h */,
+				C7FA1E2020E51E340034E154 /* OpenChatListViewController.m */,
+				C7FA1DD020E507B60034E154 /* ProfileViewController.h */,
+				C7FA1DD120E507B60034E154 /* ProfileViewController.m */,
+				C7FA1E2520E51EA50034E154 /* SearchingViewController.h */,
+				C7FA1E2620E51EA50034E154 /* SearchingViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		C7FA1DCA20E505DC0034E154 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				C7FA1E0D20E50AEA0034E154 /* User.h */,
+				C7FA1E0E20E50AEA0034E154 /* User.m */,
+				C7FA1E1020E50D180034E154 /* UserManager.h */,
+				C7FA1E1120E50D180034E154 /* UserManager.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		C7FA1DCB20E505DC0034E154 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C7FA1E1620E51D9A0034E154 /* ChatListView.xib */,
+				C7FA1E1820E51DBA0034E154 /* OpenChatListView.xib */,
+				C7FA1DD420E507E50034E154 /* ProfileView.xib */,
+				C7FA1E1A20E51DD10034E154 /* SearchingView.xib */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		C7FA1DCC20E5066F0034E154 /* subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				C7FA1E1420E510960034E154 /* CustomObject.h */,
+				C7FA1E1320E510960034E154 /* CustomObject.m */,
+				C7FA1DCD20E5066F0034E154 /* ViewController.h */,
+				C7FA1DCE20E5066F0034E154 /* ViewController.m */,
+			);
+			path = subclasses;
+			sourceTree = "<group>";
+		};
+		C7FA1DD620E508D60034E154 /* localizations */ = {
+			isa = PBXGroup;
+			children = (
+				C7FA1E3E20E521660034E154 /* Localizable.strings */,
+			);
+			path = localizations;
+			sourceTree = "<group>";
+		};
+		C7FA1DD720E508D60034E154 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7FA1DDC20E509760034E154 /* fonts */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		C7FA1DDC20E509760034E154 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C7FA1DDD20E509760034E154 /* BN */,
+				C7FA1DE320E509760034E154 /* Montserrat */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		C7FA1DDD20E509760034E154 /* BN */ = {
+			isa = PBXGroup;
+			children = (
+				C7FA1DDE20E509760034E154 /* BN-Bold.ttf */,
+				C7FA1DDF20E509760034E154 /* BN-Book.ttf */,
+				C7FA1DE020E509760034E154 /* BN-Light.ttf */,
+				C7FA1DE120E509760034E154 /* BN-Regular.ttf */,
+				C7FA1DE220E509760034E154 /* BN-Thin.ttf */,
+			);
+			path = BN;
+			sourceTree = "<group>";
+		};
+		C7FA1DE320E509760034E154 /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				C7FA1DE420E509760034E154 /* Montserrat-Black.ttf */,
+				C7FA1DE520E509760034E154 /* Montserrat-BlackItalic.ttf */,
+				C7FA1DE620E509760034E154 /* Montserrat-Bold.ttf */,
+				C7FA1DE720E509760034E154 /* Montserrat-BoldItalic.ttf */,
+				C7FA1DE820E509760034E154 /* Montserrat-ExtraBold.ttf */,
+				C7FA1DE920E509760034E154 /* Montserrat-ExtraBoldItalic.ttf */,
+				C7FA1DEA20E509760034E154 /* Montserrat-ExtraLight.ttf */,
+				C7FA1DEB20E509760034E154 /* Montserrat-ExtraLightItalic.ttf */,
+				C7FA1DEC20E509760034E154 /* Montserrat-Italic.ttf */,
+				C7FA1DED20E509760034E154 /* Montserrat-Light.ttf */,
+				C7FA1DEE20E509760034E154 /* Montserrat-LightItalic.ttf */,
+				C7FA1DEF20E509760034E154 /* Montserrat-Medium.ttf */,
+				C7FA1DF020E509760034E154 /* Montserrat-MediumItalic.ttf */,
+				C7FA1DF120E509760034E154 /* Montserrat-Regular.ttf */,
+				C7FA1DF220E509760034E154 /* Montserrat-SemiBold.ttf */,
+				C7FA1DF320E509760034E154 /* Montserrat-SemiBoldItalic.ttf */,
+				C7FA1DF420E509760034E154 /* Montserrat-Thin.ttf */,
+				C7FA1DF520E509760034E154 /* Montserrat-ThinItalic.ttf */,
+			);
+			path = Montserrat;
+			sourceTree = "<group>";
+		};
+		C7FA1E3720E520750034E154 /* macros */ = {
+			isa = PBXGroup;
+			children = (
+				C7FA1E3820E520750034E154 /* Colors.h */,
+				C7FA1E3920E520750034E154 /* Macros.h */,
+			);
+			path = macros;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C756848820E4E07900B0161B /* openchatdating */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C756849F20E4E07A00B0161B /* Build configuration list for PBXNativeTarget "openchatdating" */;
+			buildPhases = (
+				4D0BFA6C8D2345E81C86BFED /* [CP] Check Pods Manifest.lock */,
+				C756848520E4E07900B0161B /* Sources */,
+				C756848620E4E07900B0161B /* Frameworks */,
+				C756848720E4E07900B0161B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = openchatdating;
+			productName = openchatdating;
+			productReference = C756848920E4E07900B0161B /* openchatdating.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C756848120E4E07900B0161B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "YOUROCK INC";
+				TargetAttributes = {
+					C756848820E4E07900B0161B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C756848420E4E07900B0161B /* Build configuration list for PBXProject "openchatdating" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ru,
+			);
+			mainGroup = C756848020E4E07800B0161B;
+			productRefGroup = C756848A20E4E07900B0161B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C756848820E4E07900B0161B /* openchatdating */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C756848720E4E07900B0161B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C756849620E4E07A00B0161B /* Assets.xcassets in Resources */,
+				C7FA1DD520E507E50034E154 /* ProfileView.xib in Resources */,
+				C756851120E4FB0100B0161B /* uiview_floatinglikes_like_image@1x.png in Resources */,
+				C756851220E4FB0100B0161B /* uiview_floatinglikes_like_image@2x.png in Resources */,
+				C756851320E4FB0100B0161B /* uiview_floatinglikes_like_image@3x.png in Resources */,
+				C7FA1DFA20E509760034E154 /* BN-Thin.ttf in Resources */,
+				C7FA1DF620E509760034E154 /* BN-Bold.ttf in Resources */,
+				C7FA1DF920E509760034E154 /* BN-Regular.ttf in Resources */,
+				C7FA1E1920E51DBA0034E154 /* OpenChatListView.xib in Resources */,
+				C7FA1DF720E509760034E154 /* BN-Book.ttf in Resources */,
+				C7FA1DF820E509760034E154 /* BN-Light.ttf in Resources */,
+				C7FA1E0820E509760034E154 /* Montserrat-Regular.ttf in Resources */,
+				C7FA1E0B20E509760034E154 /* Montserrat-Thin.ttf in Resources */,
+				C7FA1E3C20E521660034E154 /* Localizable.strings in Resources */,
+				C7FA1E0420E509760034E154 /* Montserrat-Light.ttf in Resources */,
+				C7FA1E0120E509760034E154 /* Montserrat-ExtraLight.ttf in Resources */,
+				C7FA1E0020E509760034E154 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				C7FA1E0A20E509760034E154 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				C7FA1E1B20E51DD10034E154 /* SearchingView.xib in Resources */,
+				C7FA1E0320E509760034E154 /* Montserrat-Italic.ttf in Resources */,
+				C7FA1E0920E509760034E154 /* Montserrat-SemiBold.ttf in Resources */,
+				C7FA1E0520E509760034E154 /* Montserrat-LightItalic.ttf in Resources */,
+				C7FA1DFD20E509760034E154 /* Montserrat-Bold.ttf in Resources */,
+				C7FA1E0720E509760034E154 /* Montserrat-MediumItalic.ttf in Resources */,
+				C7FA1DFE20E509760034E154 /* Montserrat-BoldItalic.ttf in Resources */,
+				C7FA1E1720E51D9A0034E154 /* ChatListView.xib in Resources */,
+				C7FA1DFB20E509760034E154 /* Montserrat-Black.ttf in Resources */,
+				C7FA1DFF20E509760034E154 /* Montserrat-ExtraBold.ttf in Resources */,
+				C7FA1E0C20E509760034E154 /* Montserrat-ThinItalic.ttf in Resources */,
+				C7FA1DFC20E509760034E154 /* Montserrat-BlackItalic.ttf in Resources */,
+				C7FA1E0620E509760034E154 /* Montserrat-Medium.ttf in Resources */,
+				C7FA1E0220E509760034E154 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D0BFA6C8D2345E81C86BFED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-openchatdating-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C756848520E4E07900B0161B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C756849C20E4E07A00B0161B /* main.m in Sources */,
+				C756848E20E4E07900B0161B /* AppDelegate.m in Sources */,
+				C7FA1E1220E50D180034E154 /* UserManager.m in Sources */,
+				C7FA1E0F20E50AEA0034E154 /* User.m in Sources */,
+				C7FA1E3420E51FF90034E154 /* UILabel+Custom.m in Sources */,
+				C7FA1DD220E507B60034E154 /* ProfileViewController.m in Sources */,
+				C7FA1E2120E51E340034E154 /* OpenChatListViewController.m in Sources */,
+				C7FA1E3520E51FF90034E154 /* UIView+Custom.m in Sources */,
+				C7FA1DCF20E5066F0034E154 /* ViewController.m in Sources */,
+				C7FA1E2720E51EA50034E154 /* SearchingViewController.m in Sources */,
+				C7FA1E1E20E51E0B0034E154 /* ChatListViewController.m in Sources */,
+				C756851820E4FD2E00B0161B /* VPHorizontalPickerView.m in Sources */,
+				C7FA1E3320E51FF90034E154 /* NSString+Custom.m in Sources */,
+				C756851420E4FB0100B0161B /* iCarousel.m in Sources */,
+				C756851020E4FB0100B0161B /* UIView+FloatingLikes.m in Sources */,
+				C7FA1E3220E51FF90034E154 /* UITextField+Custom.m in Sources */,
+				C7FA1E3620E51FF90034E154 /* NSDictionary+Custom.m in Sources */,
+				C7FA1DC720E505430034E154 /* MKMapView+ZoomLevel.m in Sources */,
+				C7FA1E1520E510960034E154 /* CustomObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7FA1E3E20E521660034E154 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7FA1E3D20E521660034E154 /* en */,
+				C7FA1E3F20E521720034E154 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C756849D20E4E07A00B0161B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C756849E20E4E07A00B0161B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C75684A020E4E07A00B0161B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC32B629EF93DE4A45FDB2B1 /* Pods-openchatdating.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = application_icon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = application_launch_image;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2J773RMHH;
+				INFOPLIST_FILE = openchatdating/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourockinc.openchatdating;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C75684A120E4E07A00B0161B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1BB212304E983E813BF4FF7 /* Pods-openchatdating.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = application_icon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = application_launch_image;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2J773RMHH;
+				INFOPLIST_FILE = openchatdating/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourockinc.openchatdating;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C756848420E4E07900B0161B /* Build configuration list for PBXProject "openchatdating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C756849D20E4E07A00B0161B /* Debug */,
+				C756849E20E4E07A00B0161B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C756849F20E4E07A00B0161B /* Build configuration list for PBXNativeTarget "openchatdating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75684A020E4E07A00B0161B /* Debug */,
+				C75684A120E4E07A00B0161B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C756848120E4E07900B0161B /* Project object */;
+}

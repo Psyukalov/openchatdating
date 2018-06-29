@@ -1,0 +1,25 @@
+/* 
+ Localizable.strings
+ openchatdating
+ 
+ Created by Vladimir Psyukalov on 28.06.2018.
+ Copyright © 2018 YOUROCK INC. All rights reserved.
+ */
+
+
+// App delegate
+
+"tab_bar_item_title_0" = "Поиск";
+"tab_bar_item_title_1" = "Контакты";
+"tab_bar_item_title_2" = "Чаты";
+"tab_bar_item_title_3" = "Профиль";
+
+// Profile view
+
+"pv_title" = "Профиль";
+
+"pv_your_name" = "Ваше имя";
+
+"pv_age" = "Возраст";
+"pv_gender" = "Пол";
+"pv_prefer_gender" = "Предпочитаемый пол";
